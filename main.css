@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+} 
+section h2,
+section h3,
+form button {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+    color:#c01717;
+}
+
+body, input, textarea {
+    font-family: 'roboto', sans-serif;
+}
+
+header {
+    padding: 30px 0;
+    background-color:#c01717;
+    color: #ecf0f1;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    color: #ecf0f1;
+    font-size: 18px;
+    font-weight : bolder;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.brasao {
+    margin-top: 40px;
+}
+
+.brasao img {
+    max-width: 480px;
+}
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #182c61;
+}
+
+section p {
+    margin-bottom: 16px;
+}
+
+.store-front {
+    max-width: 1100px;
+    margin: 0 50px;
+}
+
+.social-links img {
+    height: 54px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, 
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #c01717;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e31212;
+}
+
+input:focus, textarea:focus {
+    outline-color: #990606
+}
+
+footer {
+    background-color: #c01717;
+    color: #ecf0f1;
+    padding: 16px 0;
+
+}
